@@ -6,7 +6,7 @@ const path = require('path');
 app.get('/',function(req,res){
  res.sendFile(path.join(__dirname, 'index.html')); //__dirname : Ritorna la cartella del progetto
 });
-
+ //la funzione in base a quello che riceve manda la pagina html desiderata
 
 app.get('/about',function(req,res){
  res.sendFile(path.join(__dirname,'about.html')); //__dirname : Ritorna la cartella del progetto
